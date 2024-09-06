@@ -11,6 +11,8 @@ jobs:
     env:
       greeting_words: hi
     steps:
+      - name: show all envs
+        run: env
       - name: "say hi to monica it's friday"
         run: echo "$greeting_words $name. Today is $day_of_week"
         env:
