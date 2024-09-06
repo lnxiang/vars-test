@@ -1,6 +1,7 @@
 name: greeting the vars day
 on:
  workflow_dispatch
+ push
 env:
   day_of_week: Friday
 jobs:
